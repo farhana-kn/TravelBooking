@@ -1,0 +1,309 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    background-color: white;
+}
+
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+
+#logo span{
+    color: orangered;
+}
+
+navbar-toggler span{
+    color: orangered;
+}
+
+navbar-nav{
+    margin-left: 20px;
+}
+
+.nav-item .nav-link{
+    font-size: 9px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover{
+    background-color: orangered;
+    color: white;
+
+}
+
+#navbar form button{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+
+.home{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://img.onmanorama.com/content/dam/mm/en/travel/hourglass/images/2019/9/26/night-trek.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.home .content{
+    text-align: center;
+    padding-top: 100px;
+    margin-right: 350px;
+}
+
+.home .content h5{
+    color: rgb(21, 23, 155);
+    font-size: 38px;
+    text-shadow: 0px 1px 1px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home .content h1{
+    color: rgb(247, 246, 246);
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.home .content p{
+    color: rgb(65, 53, 173);
+    font-weight: 15px;
+    font-weight: bold;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home .content a{
+    padding: 10px;
+    background-color: rgb(60, 105, 173);
+    color: rgb(14, 65, 85);
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.book{
+    background-color: blanchedalmond;
+    padding: 50px;
+
+}
+
+.main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;;
+    font-weight: 600;
+
+}
+
+.main-text h1 span{
+    color: orangered;
+}
+
+.book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+
+}
+
+.book .row{
+    margin-top: 30px;
+
+}
+
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+}
+
+.book .submit{
+     width: 160px;
+     font-size: 16px;
+     font-weight: 550;
+     background-color: rgb(56, 84, 146);
+     color: white;
+     margin-top: 10px;
+}
+
+.book .submit:hover{
+    width: 170px;
+}
+
+@media (max-width: 765px){
+      .book{
+        padding: 0;
+    }
+
+      .main-text h1{
+        padding: 20px;
+      }
+}
+
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 5px 5px -6px black;
+}
+.main-txt h1 span{
+    color: orangered;
+} 
+
+.packages .card{
+    border-radius: 5px;
+    border: none;
+}
+
+.packages .card .img{
+    border-radius: 5px;
+}
+
+.packages .card .card-body{
+    background: transparent;
+}
+
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.packages .card .card-body p{
+    font-size: 15px;
+}
+
+.checked{
+    color: orangered;
+}
+
+.star i{
+    font-size: 15px;
+}
+
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+
+.packages .card .card-body a{
+    padding: 5px;
+    text-decoration: none;
+    background: orangered;
+    color: white;
+    border-radius: 5px;
+}
+
+.section{
+    background: white;
+    margin-top: 50px;
+
+}
+
+.services .card{
+    box-shadow: 0px 4px 12px  black;
+    border: none;
+}
+
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: orangered;
+    margin-top: 20px;
+}
+
+.services .card .card-body h3{
+    font-weight: 600;
+}
+
+.services .card .card-body{
+    text-align: center;
+}
+
+.gallery{
+    margin-top: 50px;
+}
+
+.gallery .card{
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px  black;
+}
+
+.gallery .card img{
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+
+.gallery .card img:hover{
+    transform: scale(1.1);
+}
+
+.about{
+    margin-top: 50px;
+    background-color: beige;
+
+}
+
+.about .card{
+    border-radius: 10px;
+}
+
+.about .card .img{
+    border-radius: 10px;
+}
+
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about p{
+    font-size: 500;
+}
+
+#about-btn{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+}
